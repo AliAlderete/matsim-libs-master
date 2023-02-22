@@ -1,0 +1,23 @@
+2023-02-16T10:35:47,259  WARN PrepareForSimImpl:229 'usePersonIdForMissingVehicleId' is deprecated. It will be removed soon.
+2023-02-16T10:40:36,629  WARN RandomizingTimeDistanceTravelDisutilityFactory:113 There will be no routing randomness. The randomization of the travel disutility requires the monetary distance rate to be different than zero. Continuing anyway.
+2023-02-16T10:40:36,631  WARN RandomizingTimeDistanceTravelDisutilityFactory:118 There will be no routing randomness. The randomization of the travel disutility requires the travel time cost rate to be different than zero. Continuing anyway.
+2023-02-16T10:40:36,713 ERROR PreProcessDijkstra:100 All 1 incident nodes of node pt_020035591 are dead ends!
+2023-02-16T10:40:36,714  WARN PreProcessEuclidean:60 There are links with stored length smaller than their Euclidean distance in this network. Thus, A* cannot guarantee to calculate the least-cost paths between two nodes.
+2023-02-16T10:40:36,936 ERROR PreProcessDijkstra:100 All 2 incident nodes of node pt_40004411947A are dead ends!
+2023-02-16T10:40:36,958  WARN PreProcessEuclidean:60 There are links with stored length smaller than their Euclidean distance in this network. Thus, A* cannot guarantee to calculate the least-cost paths between two nodes.
+2023-02-16T10:45:34,560  WARN QueueWithBuffer:500 Link pt_0 too small: enlarge storage capacity from: 27.77777777777778 Vehicles to: 50.0 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2023-02-16T10:45:34,570  WARN QueueWithBuffer:500 Link pt_1 too small: enlarge storage capacity from: 92.98319600437885 Vehicles to: 697.3739700328414 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2023-02-16T10:45:34,570  WARN QueueWithBuffer:500 Link pt_10 too small: enlarge storage capacity from: 69.12797970761568 Vehicles to: 518.4598478071176 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2023-02-16T10:45:34,570  WARN QueueWithBuffer:500 Link pt_100 too small: enlarge storage capacity from: 77.78488718103345 Vehicles to: 583.386653857751 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2023-02-16T10:45:34,571  WARN QueueWithBuffer:500 Link pt_1000 too small: enlarge storage capacity from: 64.35386134316289 Vehicles to: 482.6539600737217 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2023-02-16T10:45:34,571  WARN QueueWithBuffer:500 Link pt_10000 too small: enlarge storage capacity from: 61.1721716516453 Vehicles to: 458.79128738733976 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2023-02-16T10:45:34,571  WARN QueueWithBuffer:500 Link pt_10001 too small: enlarge storage capacity from: 52.96150390746449 Vehicles to: 397.2112793059837 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2023-02-16T10:45:34,571  WARN QueueWithBuffer:500 Link pt_10002 too small: enlarge storage capacity from: 64.18127556067836 Vehicles to: 481.35956670508773 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2023-02-16T10:45:34,571  WARN QueueWithBuffer:500 Link pt_10003 too small: enlarge storage capacity from: 73.20946017361123 Vehicles to: 549.0709513020843 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2023-02-16T10:45:34,571  WARN QueueWithBuffer:500 Link pt_10004 too small: enlarge storage capacity from: 50.365239570449596 Vehicles to: 377.73929677837197 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2023-02-16T10:45:34,571  WARN QueueWithBuffer:500 Link pt_10005 too small: enlarge storage capacity from: 91.85498540511563 Vehicles to: 688.9123905383672 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2023-02-16T10:45:34,571  WARN QueueWithBuffer:503 Additional warnings of this type are suppressed.
+2023-02-16T10:46:06,894  WARN TimeAllocationMutatorModule:128 Please be aware that durations of activities now can mutate freely and possibly become negative.This might be a problem if you have 
+a) short activities that are only provided with duration and not with endtime  AND
+b) agents with only one or two initial plans.
+This can have impact on scoring and maybe even on qsim execution. It is recommended to set affectingDuration=false for such set up.
